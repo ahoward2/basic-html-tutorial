@@ -1,0 +1,58 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "Introduction",
+    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+  },
+  "config": {
+    "testRunner": {
+      "command": "./node_modules/.bin/mocha",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": "coderoad"
+    },
+    "setup": {
+      "commands": [
+        "cd coderoad && npm install"
+      ],
+      "commits": [
+        "56586d2cf9120b35aeecfcb6168a841a2da2afd6"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/ahoward2/new-tutorial",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create index.html",
+      "summary": "Optional summary for Level 1",
+      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "setup": {
+            "commits": [
+              "b11c16e19eefd39439a01637468eaa1708082954"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "ccc86587c0ce0ecd63c565b48763899482333188"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
