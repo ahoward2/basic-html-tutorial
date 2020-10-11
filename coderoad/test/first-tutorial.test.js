@@ -47,3 +47,14 @@ describe('index.html', () => {
     assert(/<!doctype html>/i.test(indexFile))
   })
 })
+
+describe('index.html', () => {
+  let indexFile
+  before(async () => {
+    indexFile = await getIndexFile()
+  })
+
+  it('should have an English ISO Language Code', () => {
+    assert(/<html lang="en">/i.test(indexFile))
+  })
+})
