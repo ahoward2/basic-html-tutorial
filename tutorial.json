@@ -22,7 +22,7 @@
     },
     "repo": {
       "uri": "https://github.com/ahoward2/new-tutorial",
-      "branch": "v0.1.0"
+      "branch": "v0.1.1"
     },
     "dependencies": [
       {
@@ -99,13 +99,13 @@
               "index.html"
             ],
             "commits": [
-              "54aaf5c1242570259290a2d48496e2e48a014c93"
+              "b40b3305a25e22b4a2bdf99235abb198997f7ad8"
             ]
           },
           "content": "Add the ISO Language Code",
           "solution": {
             "commits": [
-              "917dac7c6730173b8b08a3be69cfe3b136eb840b"
+              "2e3e8f2e9daaff2847e49d81cbc0abfdc5f7218c"
             ]
           }
         }
