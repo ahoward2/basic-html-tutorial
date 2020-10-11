@@ -24,3 +24,10 @@ levels:
         setup:
           files:
             - index.html
+  - id: '3'
+    steps:
+      - id: '3.1'
+        setup:
+          files:
+            - index.html
+            
