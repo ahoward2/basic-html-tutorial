@@ -10,7 +10,7 @@ config:
       - cd coderoad && npm install
   repo:
     uri: https://github.com/ahoward2/new-tutorial
-    branch: v0.1.0
+    branch: v0.1.1
   dependencies:
     - name: node
       version: '>=10'
