@@ -75,9 +75,37 @@
             ]
           },
           "content": "Add the DOCTYPE",
+          "hints": [
+            "Add `<!DOCTYPE html>` at the top of `index.html` and save the file"
+          ],
           "solution": {
             "commits": [
               "6658cb1b2ffb2653b86d3d4cb07e15d9861cb21d"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Add English ISO Language Code",
+      "summary": "Add English ISO Language Code to an HTML file",
+      "content": "HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n`<html lang=\"en\">`.",
+      "steps": [
+        {
+          "id": "3.1",
+          "setup": {
+            "files": [
+              "index.html"
+            ],
+            "commits": [
+              "54aaf5c1242570259290a2d48496e2e48a014c93"
+            ]
+          },
+          "content": "Add the ISO Language Code",
+          "solution": {
+            "commits": [
+              "917dac7c6730173b8b08a3be69cfe3b136eb840b"
             ]
           }
         }
