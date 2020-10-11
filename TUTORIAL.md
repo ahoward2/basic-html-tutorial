@@ -30,3 +30,18 @@ Add the DOCTYPE
 #### HINTS
 
 - Add `<!DOCTYPE html>` at the top of `index.html` and save the file
+
+## 3. Add English ISO Language Code
+
+> Add English ISO Language Code to an HTML file
+
+HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:
+`<html lang="en">`.
+
+### 3.1
+
+Add the ISO Language Code
+
+#### HINTS
+
+- Add `<html lang="en">` under the `DOCTYPE` you just created in `index.html` and save the file
