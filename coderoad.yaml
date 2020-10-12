@@ -9,7 +9,7 @@ config:
     commands:
       - cd coderoad && npm install
   repo:
-    uri: https://github.com/ahoward2/new-tutorial
+    uri: https://github.com/ahoward2/basic-html-tutorial
     branch: v0.1.2
   dependencies:
     - name: node
