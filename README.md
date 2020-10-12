@@ -19,6 +19,8 @@ Paste the url into the url selector in CodeRoad.
 
 Load up the tutorial.
 
+![Image Text](https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/start-url.png)
+
 
 
 
