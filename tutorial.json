@@ -35,15 +35,14 @@
     {
       "id": "1",
       "title": "Create index.html",
-      "summary": "Optional summary for Level 1",
-      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "summary": "Create an `index.html` file in the root directory of your project",
+      "content": "To add an `index.html` file to your project, either add the file with the VSCode interface or\nnavigate to your project in terminal and run `touch index.html` in your root directory.",
       "steps": [
         {
           "id": "1.1",
-          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "content": "Create an `index.html` file to pass this lesson.",
           "hints": [
-            "This is a hint to help people through the test",
-            "Second hint for 1.1, don't worry if the hints don't show up yet"
+            "See description above for adding `index.html`"
           ],
           "setup": {
             "commits": [
@@ -62,7 +61,7 @@
       "id": "2",
       "title": "Add DOCTYPE",
       "summary": "Add a DOCTYPE to an HTML file",
-      "content": "HTML files should have a `DOCTYPE`. You can add one at the top of the `index.html` file like this: `<!DOCTYPE html>`.",
+      "content": "HTML files should have a `DOCTYPE`. You can add one at the top of the `index.html` file like this:\n\n```html\n <!DOCTYPE html>\n```",
       "steps": [
         {
           "id": "2.1",
@@ -90,7 +89,7 @@
       "id": "3",
       "title": "Add English ISO Language Code and a header tag",
       "summary": "Add English ISO Language Code to an HTML file as well as a header tag with meta tags and a title tag.",
-      "content": "HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n`<html lang=\"en\">`.\n\nHTML files have `<head></head>` elements that are containers for metadata. Metadata will usually define\nthe document title, character set, styles, scripts, and other meta information.\n\nAdd a header element and include metadata and a title like this:\n\n```html\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n```",
+      "content": "Step 3.1: HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n\n```html\n<html lang=\"en\">\n```\n\nStep 3.2: HTML files have `<head></head>` elements that are containers for metadata. Metadata will usually define the document title, character set, styles, scripts, and other meta information.\n\nAdd a header element and include metadata and a title like this:\n\n```html\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n```",
       "steps": [
         {
           "id": "3.1",
