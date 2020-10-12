@@ -2,6 +2,8 @@
 
 Basic HTML Tutorial is a tutorial in the CodeRoad Visual Studio Code Extension.
 
+![Screenshot](https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/html-tut-screenshot2.png)
+
 ## How To Get Started
 
 - Open an empty VSCode workspace (a project folder)
