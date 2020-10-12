@@ -89,7 +89,7 @@
       "id": "3",
       "title": "Add English ISO Language Code and a header tag",
       "summary": "Add English ISO Language Code to an HTML file as well as a header tag with meta tags and a title tag.",
-      "content": "Step 3.1: HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n\n```html\n<html lang=\"en\">\n```\n\nStep 3.2: HTML files have `<head></head>` elements that are containers for metadata. Metadata will usually define the document title, character set, styles, scripts, and other meta information.\n\nAdd a header element and include metadata and a title like this:\n\n```html\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n```",
+      "content": "Step 3.1: HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n\n```html\n<html lang=\"en\">\n```\n\nStep 3.2: HTML files have `<head></head>` elements that are containers for metadata. Metadata will usually define the document title, character set, styles, scripts, and other meta information.\n\nAdd a header element and include metadata and a title like this:\n\n```html\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n```\n\nStep 3.3: HTML files have a body element that contains all of the contents of an HTML document.\n\nAdd a body below the head element.\n\n```html\n<body>\n    \n</body>\n```",
       "steps": [
         {
           "id": "3.1",
@@ -104,7 +104,8 @@
           "content": "Add the ISO Language Code",
           "hints": [
             "For 3.1: Add `<html lang=\"en\">` under the `DOCTYPE` you just created in `index.html` and save the file",
-            "For 3.2:  Add `<head></head>` tag and place 2 `<meta>` tags and a `<title>Document</title>` inside the header tag"
+            "For 3.2:  Add `<head></head>` tag and place 2 `<meta>` tags and a `<title>Document</title>` inside the header tag",
+            "For 3.3: Add `<body></body>` tags under the header element"
           ],
           "solution": {
             "commits": [
@@ -123,6 +124,20 @@
           "solution": {
             "commits": [
               "716a5d195af2ea0cd4213ae41adb7ded3c0c63a7"
+            ]
+          }
+        },
+        {
+          "id": "3.3",
+          "content": "Add a body element below the header you just added.",
+          "setup": {
+            "commits": [
+              "7654415b02059e567a9c5c57581e4dd221b8f3d7"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "e06edb8b5e456593dd09328a1f6a638db32b3765"
             ]
           }
         }
