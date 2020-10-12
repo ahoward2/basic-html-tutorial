@@ -31,10 +31,9 @@ Add the DOCTYPE
 
 - Add `<!DOCTYPE html>` at the top of `index.html` and save the file
 
-## 3. Add English ISO Language Code
+## 3. Add English ISO Language Code and a header tag
 
-> Add English ISO Language Code to an HTML file
-> Add a header tag with some meta tags and a title tag to an html file
+> Add English ISO Language Code to an HTML file as well as a header tag with meta tags and a title tag.
 
 HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:
 `<html lang="en">`.
@@ -53,10 +52,4 @@ Add a header tag with 2 meta tags and a title that says "Document"
 
 #### HINTS
 
-```
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-```
+- Add `<head></head>` tag and place 2 `<meta>` tags and a `<title>Document</title>` inside the header tag
