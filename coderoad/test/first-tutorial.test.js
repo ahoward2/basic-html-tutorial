@@ -58,3 +58,14 @@ describe('index.html', () => {
     assert(/<html lang="en">/i.test(indexFile))
   })
 })
+
+describe('index.html', () => {
+  let indexFile
+  before (async () => {
+    indexFile = await getIndexFile()
+  })
+
+  it ('should have a head tag with 2 meta tags and a title tag', () => {
+    assert(/<head>(\s*)<meta charset="UTF-8">(\s*)<meta name="viewport" content="width=device-width, initial-scale=1.0">(\s*)<title>.+?<\/title>(\s*)<\/head>/i.test(indexFile))
+  })
+})
