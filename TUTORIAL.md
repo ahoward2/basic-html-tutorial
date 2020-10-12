@@ -4,24 +4,28 @@ Welcome to the most basic HTML tutorial in the world!
 
 ## 1. Create index.html
 
-> Optional summary for Level 1
+> Create an `index.html` file in the root directory of your project
 
-Here's where you can put a description, examples, and instructions for the lesson.
+To add an `index.html` file to your project, either add the file with the VSCode interface or
+navigate to your project in terminal and run `touch index.html` in your root directory.
 
 ### 1.1 Level 1 Step 1
 
-This is the test text. Create an `index.html` file to pass this lesson.
+Create an `index.html` file to pass this lesson.
 
 #### HINTS
 
-- This is a hint to help people through the test
-- Second hint for 1.1, don't worry if the hints don't show up yet
+- See description above for adding `index.html`
 
 ## 2. Add DOCTYPE
 
 > Add a DOCTYPE to an HTML file
 
-HTML files should have a `DOCTYPE`. You can add one at the top of the `index.html` file like this: `<!DOCTYPE html>`.
+HTML files should have a `DOCTYPE`. You can add one at the top of the `index.html` file like this:
+
+```html
+ <!DOCTYPE html>
+```
 
 ### 2.1
 
@@ -35,11 +39,13 @@ Add the DOCTYPE
 
 > Add English ISO Language Code to an HTML file as well as a header tag with meta tags and a title tag.
 
-HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:
-`<html lang="en">`.
+Step 3.1: HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:
 
-HTML files have `<head></head>` elements that are containers for metadata. Metadata will usually define
-the document title, character set, styles, scripts, and other meta information.
+```html
+<html lang="en">
+```
+
+Step 3.2: HTML files have `<head></head>` elements that are containers for metadata. Metadata will usually define the document title, character set, styles, scripts, and other meta information.
 
 Add a header element and include metadata and a title like this:
 
