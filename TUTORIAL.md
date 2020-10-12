@@ -38,18 +38,29 @@ Add the DOCTYPE
 HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:
 `<html lang="en">`.
 
+HTML files have `<head></head>` elements that are containers for metadata. Metadata will usually define
+the document title, character set, styles, scripts, and other meta information.
+
+Add a header element and include metadata and a title like this:
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+```
+
 ### 3.1
 
 Add the ISO Language Code
 
 #### HINTS
 
-- Add `<html lang="en">` under the `DOCTYPE` you just created in `index.html` and save the file
+- For 3.1: Add `<html lang="en">` under the `DOCTYPE` you just created in `index.html` and save the file
+- For 3.2:  Add `<head></head>` tag and place 2 `<meta>` tags and a `<title>Document</title>` inside the header tag
 
 ### 3.2
 
 Add a header tag with 2 meta tags and a title that says "Document"
 
-#### HINTS
-
-- Add `<head></head>` tag and place 2 `<meta>` tags and a `<title>Document</title>` inside the header tag
