@@ -79,6 +79,8 @@ Add the ISO Language Code
 
 - For 3.3: Add `<body></body>` tags under the header element
 
+- For 3.4 Add `</html>` tag at the end of the file if you haven't already.
+
 
 ### 3.2
 
@@ -87,4 +89,8 @@ Add a header tag with 2 meta tags and a title that says "Document"
 ### 3.3
 
 Add a body element below the header you just added.
+
+### 3.4
+
+Add closing html tag if you haven't already done so.
 
