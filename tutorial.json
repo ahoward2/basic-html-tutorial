@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": {
     "title": "Basic HTML Hello World",
     "description": "Welcome to the most basic HTML tutorial in the world!"
@@ -22,7 +22,7 @@
     },
     "repo": {
       "uri": "https://github.com/ahoward2/basic-html-tutorial",
-      "branch": "v0.1.2"
+      "branch": "v0.1.3"
     },
     "dependencies": [
       {
@@ -117,12 +117,12 @@
           "content": "Add a header tag with 2 meta tags and a title that says \"Document\"",
           "setup": {
             "commits": [
-              "436f7c4fef0ad48b3c90381b60faf88972c0e45c"
+              "4503fbfaa555e26d75ccd5ec3eee3bd33c570840"
             ]
           },
           "solution": {
             "commits": [
-              "d15e01a92f0605fc4e42f86df4e3679b60c87e38"
+              "716a5d195af2ea0cd4213ae41adb7ded3c0c63a7"
             ]
           }
         }
