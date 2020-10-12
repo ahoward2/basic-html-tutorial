@@ -1,4 +1,4 @@
-version: '0.1.0'
+version: '0.1.1'
 config:
   testRunner:
     command: ./node_modules/.bin/mocha
@@ -10,7 +10,7 @@ config:
       - cd coderoad && npm install
   repo:
     uri: https://github.com/ahoward2/basic-html-tutorial
-    branch: v0.1.2
+    branch: v0.1.3
   dependencies:
     - name: node
       version: '>=10'
