@@ -88,9 +88,9 @@
     },
     {
       "id": "3",
-      "title": "Add English ISO Language Code",
-      "summary": "Add English ISO Language Code to an HTML file",
-      "content": "> Add a header tag with some meta tags and a title tag to an html file\n\nHTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n`<html lang=\"en\">`.",
+      "title": "Add English ISO Language Code and a header tag",
+      "summary": "Add English ISO Language Code to an HTML file as well as a header tag with meta tags and a title tag.",
+      "content": "HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n`<html lang=\"en\">`.",
       "steps": [
         {
           "id": "3.1",
