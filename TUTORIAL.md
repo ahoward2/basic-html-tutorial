@@ -57,6 +57,16 @@ Add a header element and include metadata and a title like this:
 </head>
 ```
 
+Step 3.3: HTML files have a body element that contains all of the contents of an HTML document.
+
+Add a body below the head element.
+
+```html
+<body>
+    
+</body>
+```
+
 ### 3.1
 
 Add the ISO Language Code
@@ -64,9 +74,17 @@ Add the ISO Language Code
 #### HINTS
 
 - For 3.1: Add `<html lang="en">` under the `DOCTYPE` you just created in `index.html` and save the file
+
 - For 3.2:  Add `<head></head>` tag and place 2 `<meta>` tags and a `<title>Document</title>` inside the header tag
+
+- For 3.3: Add `<body></body>` tags under the header element
+
 
 ### 3.2
 
 Add a header tag with 2 meta tags and a title that says "Document"
+
+### 3.3
+
+Add a body element below the header you just added.
 
