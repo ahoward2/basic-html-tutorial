@@ -80,3 +80,14 @@ describe('index.html', () => {
     assert(/<body>(\s*)<\/body>/i.test(indexFile))
   })
 })
+
+describe('index.html', () => {
+  let indexFile
+  before (async () => {
+    indexFile = await getIndexFile()
+  })
+
+  it ('should have a closing html tag', () => {
+    assert(/<\/html>/i.test(indexFile))
+  })
+})
