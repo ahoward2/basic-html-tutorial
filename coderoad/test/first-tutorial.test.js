@@ -69,3 +69,14 @@ describe('index.html', () => {
     assert(/<head>(\s*)<meta charset="UTF-8">(\s*)<meta name="viewport" content="width=device-width, initial-scale=1.0">(\s*)<title>.+?<\/title>(\s*)<\/head>/i.test(indexFile))
   })
 })
+
+describe('index.html', () => {
+  let indexFile
+  before (async () => {
+    indexFile = await getIndexFile()
+  })
+
+  it ('should have a body element', () => {
+    assert(/<body>(\s*)<\/body>/i.test(indexFile))
+  })
+})
