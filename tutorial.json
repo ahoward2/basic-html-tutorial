@@ -1,8 +1,8 @@
 {
   "version": "0.1.0",
   "summary": {
-    "title": "Introduction",
-    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+    "title": "Basic HTML Hello World",
+    "description": "Welcome to the most basic HTML tutorial in the world!"
   },
   "config": {
     "testRunner": {
@@ -90,7 +90,7 @@
       "id": "3",
       "title": "Add English ISO Language Code",
       "summary": "Add English ISO Language Code to an HTML file",
-      "content": "HTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n`<html lang=\"en\">`.",
+      "content": "> Add a header tag with some meta tags and a title tag to an html file\n\nHTML files should have a `lang` attribute. You can add one under the `DOCTYPE` like this:\n`<html lang=\"en\">`.",
       "steps": [
         {
           "id": "3.1",
@@ -103,9 +103,26 @@
             ]
           },
           "content": "Add the ISO Language Code",
+          "hints": [
+            "Add `<html lang=\"en\">` under the `DOCTYPE` you just created in `index.html` and save the file"
+          ],
           "solution": {
             "commits": [
               "c5c98525cd13e5f5eb2c1cf4c4c5f705a3ecf557"
+            ]
+          }
+        },
+        {
+          "id": "3.2",
+          "content": "Add a header tag with 2 meta tags and a title that says \"Document\"",
+          "setup": {
+            "commits": [
+              "436f7c4fef0ad48b3c90381b60faf88972c0e45c"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "d15e01a92f0605fc4e42f86df4e3679b60c87e38"
             ]
           }
         }
