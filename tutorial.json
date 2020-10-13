@@ -40,15 +40,18 @@
       "steps": [
         {
           "id": "1.1",
-          "content": "Create an `index.html` file to pass this lesson.",
-          "hints": [
-            "See description above for adding `index.html`"
-          ],
           "setup": {
+            "vscodeCommands": [
+              "workbench.action.terminal.toggleTerminal"
+            ],
             "commits": [
               "b11c16e19eefd39439a01637468eaa1708082954"
             ]
           },
+          "content": "Create an `index.html` file to pass this lesson.",
+          "hints": [
+            "See description above for adding `index.html`"
+          ],
           "solution": {
             "commits": [
               "ccc86587c0ce0ecd63c565b48763899482333188"
