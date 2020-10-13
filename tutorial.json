@@ -22,7 +22,7 @@
     },
     "repo": {
       "uri": "https://github.com/ahoward2/basic-html-tutorial",
-      "branch": "v0.1.3"
+      "branch": "v0.1.4"
     },
     "dependencies": [
       {
@@ -133,12 +133,12 @@
           "content": "Add a body element below the header you just added.",
           "setup": {
             "commits": [
-              "7654415b02059e567a9c5c57581e4dd221b8f3d7"
+              "40bb362633bf50e2c25a294403732b6bf9acff6c"
             ]
           },
           "solution": {
             "commits": [
-              "e06edb8b5e456593dd09328a1f6a638db32b3765"
+              "236985c0ec5caaa431a2f9d85b6aecab332af558"
             ]
           }
         },
@@ -147,12 +147,40 @@
           "content": "Add closing html tag if you haven't already done so.",
           "setup": {
             "commits": [
-              "00e76b4304ff8669166e3319fbba6cbfb5148cde"
+              "2dc693098c920a80b02b147c120d64b48f088efb"
             ]
           },
           "solution": {
             "commits": [
-              "56224d71bebbf2fafbb2215678b20756e6c28945"
+              "a81e811f43048e0123e631c7ab9ac9923f99aae2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Add a \"Hello World\" header to the page!",
+      "summary": "Add a header inside of the body element",
+      "content": "",
+      "steps": [
+        {
+          "id": "4.1",
+          "setup": {
+            "files": [
+              "index.html"
+            ],
+            "commits": [
+              "88e4e496b1a8224b1fc89680666d9d593d5173b5"
+            ]
+          },
+          "content": "Add `<h1>` element with \"Hello World\" inside!",
+          "hints": [
+            "Add an `<h1>Hello World</h1>` inside the `<body>` element."
+          ],
+          "solution": {
+            "commits": [
+              "66e8d31d77189442b5b08e1b821b548ecf7f4684"
             ]
           }
         }
