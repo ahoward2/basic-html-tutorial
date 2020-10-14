@@ -3,7 +3,7 @@
 Basic HTML Tutorial is a tutorial in the CodeRoad Visual Studio Code Extension.
 
 <div>
-  <img src="https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/html-tut-screenshot2.png" width="50%" height="50%" />
+  <img src="https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/html-tut-screenshot2.png" width="100%" height="100%" />
 </div>
 
 
@@ -26,7 +26,7 @@ Paste the url into the url selector in CodeRoad.
 Load up the tutorial.
 
 <div>
-  <img src="https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/start-url.png" width="50%" height="50%" />
+  <img src="https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/start-url.png" width="100%" height="100%" />
 </div>
 
 
