@@ -18,9 +18,8 @@ levels:
   - id: '1'
     steps:
       - id: '1.1'
-        solution:
-          commands:
-            - open index.html
+        vscodeCommands:
+          - 'workbench.action.terminal.toggleTerminal'
   - id: '2'
     steps:
       - id: '2.1'
