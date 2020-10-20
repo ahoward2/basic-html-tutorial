@@ -165,7 +165,7 @@
       "id": "4",
       "title": "Add a \"Hello World\" header to the page!",
       "summary": "Add a header inside of the body element",
-      "content": "",
+      "content": "![Hello World Header](public/images/helloworld.png?raw=true \"Hello World Header\")",
       "steps": [
         {
           "id": "4.1",
