@@ -98,7 +98,7 @@ Add closing html tag if you haven't already done so.
 
 > Add a header inside of the body element
 
-![Hello World Header](coderoad/images/helloworld.png?raw=true "Hello World Header")
+![Hello World Header](https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/helloworld.png?raw=true "Hello World Header")
 
 ### 4.1
 
