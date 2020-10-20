@@ -98,6 +98,8 @@ Add closing html tag if you haven't already done so.
 
 > Add a header inside of the body element
 
+![Hello World Header](public/images/helloworld.png?raw=true "Hello World Header")
+
 ### 4.1
 
 Add `<h1>` element with "Hello World" inside!
