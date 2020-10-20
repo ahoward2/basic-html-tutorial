@@ -165,7 +165,7 @@
       "id": "4",
       "title": "Add a \"Hello World\" header to the page!",
       "summary": "Add a header inside of the body element",
-      "content": "![Hello World Header](coderoad/images/helloworld.png?raw=true \"Hello World Header\")",
+      "content": "![Hello World Header](https://github.com/ahoward2/basic-html-tutorial/blob/master/src/images/helloworld.png?raw=true \"Hello World Header\")",
       "steps": [
         {
           "id": "4.1",
