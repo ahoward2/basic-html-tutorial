@@ -10,6 +10,8 @@ Basic HTML Tutorial is a tutorial in the CodeRoad Visual Studio Code Extension.
 
 ## How To Get Started
 
+- Install Visual Studio Code Extension "CodeRoad"
+
 - Open an empty VSCode workspace (a project folder)
 
 - Launch the app from the VSCode command palette. How?
@@ -18,6 +20,8 @@ Basic HTML Tutorial is a tutorial in the CodeRoad Visual Studio Code Extension.
 in the command palette popup, search for and run CodeRoad:Start
 
 ### Add Tutorial File From URL
+
+Open New Tutorial in an empty workspace.
 
 Copy this url: `https://raw.githubusercontent.com/ahoward2/basic-html-tutorial/master/tutorial.json`
 
